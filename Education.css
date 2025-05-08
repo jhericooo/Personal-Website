@@ -1,0 +1,60 @@
+.education{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eduCards{
+    width: 95%;
+    height: 98%;
+
+    padding: 1%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Card{
+    margin: 1%;
+    border-style: solid;
+    height: auto;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: c;
+    line-height: 1.5 ;
+
+    background-color: whitesmoke;
+
+
+    border-radius: 5%;
+
+}
+.Card img{
+
+    border-radius: 5%;
+    margin-top: 3%;
+    height: 40%;
+    width: 90%;
+
+}
+
+.Card h2{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 2%;
+}
+
+@media (max-width: 400px) {
+
+    .Card h1{
+        font-size: 1.1rem;
+    }
+
+}

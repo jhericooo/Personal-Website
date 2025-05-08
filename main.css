@@ -1,0 +1,193 @@
+.Main{
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainContainer{
+
+
+    display: flex;
+    flex-direction:row;
+    margin-bottom:4%;
+}
+
+.WebPic img{
+
+    height: 400px;
+    width: 400px;
+
+    border-radius: 360px;
+}
+
+.MainText{
+    padding-right: 2%;
+    margin-top: 3%;
+    margin-left: 3%;
+
+    max-width:700px;
+}
+
+.MainText p{
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+
+.lasttext{
+    padding: 1%;
+    border-style: solid;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.download-btn {
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style the button */
+.btnn {
+    background-color: white; 
+    color: black; /* Text color */
+    border: none; 
+    padding: 12px 24px; /* Add some padding */
+    font-size: 15px; 
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+/* Hover effect for the button */
+.btnn:hover {
+    background-color: black; /* Darker blue when hovered */
+    color: white;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Focus effect for accessibility */
+.btnn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(38, 143, 255, 0.5); /* Blue glow on focus */
+}
+
+@media (max-width:1079px ){
+    .MainText h1{
+        text-align: center;
+    }
+
+    .MainText p{
+        text-align: center;
+    }
+    .MainContainer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
+
+@media (max-width:700px ){
+    .WebPic img{
+        height:300px;
+        width: 300px;
+    }
+    .MainContainer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    }
+    .lasttext{
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media (max-width:530px ){
+    .WebPic img{
+        height:300px;
+        width: 300px;
+    }
+    .MainContainer{
+    margin-top:5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
+
+@media (max-width:450px ){
+    .WebPic img{
+        height:300px;
+        width: 300px;
+        
+    }
+
+    .lasttext{
+        font-size: 0.9rem;
+    }
+    
+
+    .MainContainer{
+    margin-top:5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .MainText h1{
+        font-size: 1.1rem;
+    }
+
+    .MainText p{
+        font-size: 1.1rem;
+    }
+
+    .btnn {
+        font-size: 10px; 
+        padding: 2%;
+        margin-left: 2%;
+
+    }
+}
+
+
+@media (max-width:380px ){
+    .WebPic img{
+        height:300px;
+        width: 300px;
+    }
+    .MainContainer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
+
+@media (max-width:350px ){
+    .WebPic img{
+        height:250px;
+        width: 250px;
+    }
+    .MainContainer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    }
+    .lasttext{
+        font-size: 0.7rem;
+    }
+
+}
